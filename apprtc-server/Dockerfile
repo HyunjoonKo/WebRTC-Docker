@@ -74,7 +74,7 @@ RUN npm install -g grunt-cli
 RUN npm install
 RUN grunt build
 
-WORKDIR /
+WORKDIR /usr/app
 
 RUN npm install express
 COPY ice.js /
